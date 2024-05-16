@@ -6,11 +6,11 @@ interface Props {
 }
 
 const LottoBall: React.FC<Props> = ({number}) => {
-    return (
-        <div className="lotto">
-            <span>{number}</span>
-        </div>
-    );
+  return (
+    <div className="lotto">
+      <strong>{number}</strong>
+    </div>
+  );
 };
 
 export default LottoBall;
