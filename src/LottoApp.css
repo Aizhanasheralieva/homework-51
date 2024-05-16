@@ -6,13 +6,18 @@
 }
 .getNumbersBtn {
   display: block;
-  margin-top: 40px;
-  margin-left: 200px;
+  cursor: pointer;
+  margin: auto;
+}
+.getNumbersBtn:hover {
+  background-color: #0f4eec;
+  color: #fff;
+  box-shadow: 2px 2px 2px 1px rgb(82, 116, 227);
 }
 
 .some-title {
   margin-bottom: 30px;
-  font-size: medium;
+  font-size: large;
 }
 
 .LottoApp {
